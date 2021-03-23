@@ -1,0 +1,104 @@
+html,
+body{
+  font-family: arial, sans-serif;
+}
+
+.wrapper {
+  background-image: url("https://i.imgur.com/n9Czopx.png");
+
+}
+
+.header {
+  h3 {
+    font-weight: 600;
+    font-size: 23px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 175%;
+  }
+  a {
+    color: #3574E3;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .to-pack-btn {
+    border: 1px solid black;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    background: #000000;
+    background-color: #000000;
+    font-weight: 600;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.key-stats {
+  h3 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  ul {
+    line-height: 160%;
+    li {
+      font-size: 15px;
+    }
+  }
+  .to-blog-btn {
+    border: 1px solid black;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    background: #000000;
+    background-color: #000000;
+    font-weight: 600;
+  }
+  a {
+    color: #3574E3;
+  }
+  p {
+    font-size: 15px;
+    line-height: 175%;
+    hyphens: none;
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.footer-container {
+  background: #000000;
+  background-color: #000000;
+  .footer {
+    background: #000000;
+    background-color: #000000;
+    padding-top: 15px;
+    img {
+      display: inline-block;
+      width: 40px;
+      margin-right: 20px;
+      padding-bottom: 15px;
+    }
+    p {
+      color: #FFFFFF;
+      font-size: 12px;
+      padding-bottom: 15px;
+      a{
+        color: #3574E3;
+        &:hover {
+          text-decoration: underline;
+        }
+        &:visited {
+          color: #551A75;
+        }
+      }
+    }
+    .manage-pref {
+      text-decoration: underline;
+      color: #FFFFFF;
+      font-size: 12px;
+    }
+  }
+}
